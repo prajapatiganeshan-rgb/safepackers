@@ -1,222 +1,140 @@
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <title>
-        Printer Service
-    </title>
-    <script src="https://cdn.tailwindcss.com">
-    </script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
-    <style>
-        @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
-
-        body {
-            font-family: "Inter", sans-serif;
-        }
-    </style>
-</head>
-
-<body class="bg-white">
-    <!-- Header -->
-    <header class="bg-[#003087] flex items-center justify-between px-4 sm:px-8 py-3">
-        <div class="flex items-center space-x-2">
-            <img alt="HP logo in white on blue background" class="w-10 h-10 object-contain" height="40"
-                src="https://storage.googleapis.com/a1aa/image/d5c27842-5f28-4f1b-0df9-1ad19c57b756.jpg" width="40" />
-            <h1 class="text-white font-extrabold text-[10px] sm:text-lg leading-none" ">
-                Printer Setup
-            </h1>
-        </div>
-        <div class=" flex items-center space-x-1 text-white text-xs sm:text-base">
-            <span class="text-white font-extrabold text-[10px] sm:text-lg leading-none">Call Now</span>
-            <span onclick="callSupport()" class="border border-white rounded-full px-3 py-1 sm:text-lg  text-[10px] font-semibold select-none">
-                +1-877-838-5851
-            </span>
-        </div>
-    </header>
-
-    <!-- Main Image -->
-    <main class="max-w-6xl mx-auto mt-6 px-4 sm:px-0">
-
-
-           <img alt="White HP printer and laptop on a wooden desk with books, vases, and photos on the wall in a cozy room"
-            src="https://storage.googleapis.com/a1aa/image/639ca354-59bb-4163-5cbf-260785cf6aec.jpg"
-            class="w-full sm:w-11/12 md:w-10/12 lg:w-8/12 xl:w-9/12 mx-auto rounded object-cover h-[220px] sm:h-[260px] md:h-[280px] lg:h-[240px] xl:h-[300px]"
-            width="1200" />
-
-        
-        <!-- Content -->
-        <section class="mt-8 max-w-3xl mx-auto text-sm sm:text-base text-[#111827]">
-            <h2 class="font-extrabold text-center text-lg sm:text-xl mb-4">
-                H.P Printer Center
-                <span
-                onclick="callSupport()"
-                    class="inline-block ml-3 bg-red-600 text-white rounded-full px-2 py-1 text-sm sm:text-base font-bold align-middle">
-                    <i class="fas fa-phone-alt mr-1">
-                    </i>
-                    +1-877-838-5851
-                </span>
-            </h2>
-            <p class="flex items-center text-xs sm:text-sm mb-4 text-gray-700">
-                <span class="inline-block mr-2 text-green-600 select-none">
-                    ✅
-                </span>
-                Our H.P Printer Services Include:
-            </p>
-            <div class="space-y-5 text-gray-900">
-                <div>
-                    <p class="font-semibold mb-1">
-                        <span class="mr-2 select-none">
-                            🖨️
-                        </span>
-                        Setup &amp; Installation
-                    </p>
-                    <p>
-                        Seamless setup for all printer models – wired and wireless
-                    </p>
-                    <p>
-                        Driver installation for Windows, macOS, and mobile devices
-                    </p>
-                    <p>
-                        Wi-Fi configuration and printer-to-network integration
-                    </p>
-                </div>
-                <div>
-                    <p class="font-semibold mb-1">
-                        <span class="mr-2 select-none">
-                            📄
-                        </span>
-                        Print, Scan &amp; Fax Support
-                    </p>
-                    <p>
-                        Troubleshooting printing and scanning issues
-                    </p>
-                    <p>
-                        Fax configuration and performance tuning
-                    </p>
-                    <p>
-                        Ink and toner management, print quality optimization
-                    </p>
-                </div>
-                <div>
-                    <p class="font-semibold mb-1">
-                        <span class="mr-2 select-none">
-                            🖥️
-                        </span>
-                        Connectivity &amp; Device Sync
-                    </p>
-                    <p>
-                        Wireless and Bluetooth printing setup
-                    </p>
-                    <p>
-                        H.P Smart App configuration and cloud printing
-                    </p>
-                    <p>
-                        USB, network, and mobile printing integration
-                    </p>
-                </div>
-                <div>
-                    <p class="font-semibold mb-1">
-                        <span class="mr-2 select-none">
-                            🔒
-                        </span>
-                        Security &amp; Maintenance
-                    </p>
-                    <p>
-                        Secure printing setup and password protection
-                    </p>
-                    <p>
-                        Firmware updates and performance checks
-                    </p>
-                    <p>
-                        Routine maintenance and hardware diagnostics
-                    </p>
-                </div>
-                <div>
-                    <p class="font-semibold mb-1">
-                        <span class="mr-2 select-none">
-                            💼
-                        </span>
-                        Why Choose Our H.P Printer Center?
-                    </p>
-                    <ul class="list-disc list-inside text-blue-900 space-y-0.5">
-                        <li>
-                            Certified H.P Printer Specialists
-                        </li>
-                        <li>
-                            Fast Remote &amp; On-Site Troubleshooting
-                        </li>
-                        <li>
-                            One-Time Fixes &amp; Subscription Plans Available
-                        </li>
-                        <li>
-                            Support for Homes, Offices &amp; Educational Institutions
-                        </li>
-                        <li>
-                            Privacy, Data Security &amp; Performance Guaranteed
-                        </li>
-                    </ul>
-                </div>
-                <p class="mt-4 text-pink-600 font-semibold" onclick="callSupport()">
-                    <i class="fas fa-phone-alt mr-1">
-                    </i>
-                    Talk to Printer Expert Today. +1-877-838-5851
-                </p>
-            </div>
-        </section>
-    </main>
-    <!-- Footer -->
-    <footer class="bg-[#003087] text-white text-[9px] sm:text-[10px] leading-tight px-4 py-4 mt-12">
-        <div class="max-w-6xl mx-auto">
-            <p class="mb-2">
-                Disclaimer:
-                <br />
-                We are an independent third-party service provider and are not affiliated with or endorsed by
-                H&P.Printer, Cash App, Apple Pay, or any other financial service mentioned on this platform. All
-                trademarks, logos, and brand names are the property of their respective owners. Our services are
-                designed to assist users with H&P.Printer and any transactions or services provided are subject to the
-                terms and conditions of the respective platform. Please ensure that you review the official terms of
-                service of H&P.Printer, or any other service provider you use.
-            </p>
-            <nav class="space-y-1">
-                <a class="block underline" href="#">
-                    . Home
-                </a>
-                <a class="block underline" href="#">
-                    . Contact Us
-                </a>
-                <a class="block underline" href="#">
-                    . Privacy Policy
-                </a>
-                <a class="block underline" href="#">
-                    . Terms &amp; Conditions
-                </a>
-            </nav>
-        </div>
-    </footer>
-</body>
-
-<script>
-    function callSupport() {
-        window.location.href = 'tel:+1-877-838-5851';
-
+  <meta charset="UTF-8">
+  <title>Contact Us | Safe Hands Packers & Movers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Css/style.css">
+  <style>
+    .contact-container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 60px 20px;
     }
 
-</script>
-<!-- Default Statcounter code for Gets Prime
-https://anweshacpoddar-cmyk.github.io/hpnewpinter -->
-<script type="text/javascript">
-var sc_project=13170880; 
-var sc_invisible=1; 
-var sc_security="fbbbdeb5"; 
-</script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js" async></script>
-<noscript><div class="statcounter"><a title="hit counter"
-href="https://statcounter.com/" target="_blank"><img class="statcounter"
-src="https://c.statcounter.com/13170880/0/fbbbdeb5/1/" alt="hit counter"
-referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
-<!-- End of Statcounter Code -->
+    .contact-box {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+
+    .contact-info {
+      flex: 1;
+      background: #fff4dc;
+      border-left: 6px solid #ffbe0b;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    .contact-info h3 {
+      margin-top: 20px;
+      color: #d32f2f;
+    }
+
+    .contact-info p {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    .contact-form {
+      flex: 1;
+      background: #f9f9f9;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    @media(max-width: 768px) {
+      .contact-box {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header">
+    <div class="nav">
+      <div class="logo">
+        <a href="index.html">
+          <img src="image/logo.png" alt="Safe Hands Packers & Movers">
+        </a>
+      </div>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="service.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="contact-container">
+    <h1 style="text-align: center; color: #d32f2f;">Contact Us</h1>
+    <p style="text-align: center; color: #555;">
+      Get in touch with us for reliable Packers & Movers services across India.
+    </p>
+
+    <div class="contact-box">
+
+      <!-- LEFT -->
+      <div class="contact-info">
+        <h3>📞 Call Us</h3>
+        <p>+91 9211396141</p>
+        <p>+91 9120804470</p>
+
+        <h3>📧 Email</h3>
+        <p>
+          <a href="mailto:safehandspackersmovers05@gmail.com"
+            style="color: #d32f2f; text-decoration: none; font-weight: bold;">
+            safehandspackersmovers05@gmail.com
+          </a>
+        </p>
+
+        <h3>📍 Our Presence</h3>
+        <p>Lucknow, Kanpur, Varanasi, Dehradun, Greater Noida</p>
+      </div>
+
+      <!-- RIGHT FORM -->
+      <div class="contact-form">
+        <form>
+          <input type="text" placeholder="Your Name" required
+            style="width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px;">
+          <input type="tel" placeholder="Phone Number" required
+            style="width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px;">
+          <input type="text" placeholder="City" required
+            style="width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px;">
+          <textarea placeholder="Your Message / Requirements"
+            style="width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px; height: 100px; resize: none;"></textarea>
+          <button type="submit" class="btn-red"
+            style="width: 100%; padding: 14px; background: #d32f2f; color: #fff; border: none; border-radius: 6px; font-size: 16px; cursor: pointer;">Send
+            Message</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    © 2026 Safe Hands Packers and Movers
+  </footer>
+
+  <!-- ================= MOBILE CALL ================= -->
+  <div class="mobile-call">
+    <a href="tel:+919211396141">📞 Call Now</a>
+  </div>
+
+  <!-- ================= WHATSAPP ================= -->
+  <a href="https://wa.me/919211396141" class="whatsapp-float" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+  </a>
+
+</body>
+
 </html>
